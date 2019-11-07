@@ -5,9 +5,9 @@ def oxford_comma(array)
   when 2
     p array.join(" and ")
   else
-    array.pop
+    remainder = array.pop
     oxford = array.join(", ")
-    oxford << ", and #{array.pop}"
+    oxford << ", and #{remainder}"
     p oxford
   end
 end
