@@ -4,7 +4,7 @@ def oxford_comma(array)
     puts array.join
   when ==2
     puts array.join(" and ")
-  when >2
+  else
     oxford = array.pop
     oxford1 = oxford.join(", ")
     oxford1 << array.last
