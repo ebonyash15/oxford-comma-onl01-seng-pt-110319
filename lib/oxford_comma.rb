@@ -1,8 +1,8 @@
 def oxford_comma(array)
   case array.size
-  when ==1
+  when 1
     puts array.join
-  when ==2
+  when 2
     puts array.join(" and ")
   else
     oxford = array.pop
