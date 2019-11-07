@@ -9,4 +9,5 @@ def oxford_comma(array)
     oxford1 = oxford.join(", ")
     oxford1 << array.last
     puts oxford1
+  end
 end
